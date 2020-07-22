@@ -17,7 +17,5 @@ public class AbstractTaxiOrderDecorator implements TaxiOrder {
 
     protected AbstractTaxiOrderDecorator(TaxiOrder taxiOrder) {
         this.taxiOrder = taxiOrder;
-
-
     }
 }
